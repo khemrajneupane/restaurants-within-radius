@@ -1,36 +1,32 @@
 {
-  "name": "frontend-wolt",
-  "version": "0.1.0",
-  "private": true,
+  "name": "woltapp",
+  "version": "1.0.0",
+  "description": "woltapp-internship-assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "json-server -p3001 restaurants.json",
+    "test": "jest --verbose"
+  },
+  "author": "khem",
+  "license": "ISC",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "geo-distance": "^0.2.0",
+    "geolib": "^3.2.1",
+    "mocha": "^7.0.1",
+    "request": "^2.88.0"
   },
   "jest": {
     "testEnvironment": "node"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest --verbose"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
   }
 }
