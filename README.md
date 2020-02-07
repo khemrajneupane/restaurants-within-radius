@@ -4,7 +4,7 @@
 - nodemon index.js
   - node_modules/.bin/nodemon index.js
 
-[run locally](http://localhost:3001/restaurants/search/sushi/60.17045/24.93147)
+[Run Locally](http://localhost:3001/restaurants/search/sushi/60.17045/24.93147) : http://localhost:3001/restaurants/search/sushi/60.17045/24.93147 or http://localhost:3001/restaurants
 
 ###### Test Result Screen Shot
 
