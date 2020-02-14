@@ -1,4 +1,3 @@
-# This project is entirely done as a backend assignment provided by Wolt Helsinki, in order to get through the summer internship 2020
 
 # To run this project
 
